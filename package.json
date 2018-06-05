@@ -16,5 +16,9 @@
     "babel-preset-stage-0": "^6.24.1",
     "webpack": "^4.10.2",
     "webpack-command": "^0.2.0"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
   }
 }

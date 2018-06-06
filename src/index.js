@@ -5,7 +5,7 @@ import Hello from './component/Hello/Hello';
 
 import {AppContainer} from 'react-hot-loader';
 
-import getRouter from './router/router';
+import getRouter from 'router/router';
 
 renderWithHotReload(getRouter());
 if(module.hot)
@@ -15,10 +15,10 @@ if(module.hot)
         renderWithHotReload(getRouter());
     });
 }
-function renderWithHotReload(RootElment) {
+function renderWithHotReload(RootElement) {
     ReactDom.render(
         <AppContainer>
-            {RootElment}
+            {RootElement}
         </AppContainer>,
         document.getElementById('app')
     )

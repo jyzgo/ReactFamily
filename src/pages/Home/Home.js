@@ -19,7 +19,7 @@ export default class Home extends Component
     render()
     {
         return(<div>
-                This is home!!@<br/>
+                This is not home!!@<br/>
                 Current Count is: {this.state.count}<br/>
                 <button onClick={()=> this._handleClick()}>Be Clicked!</button>
             </div>
